@@ -196,7 +196,9 @@ Hidrodinamika 1 dimensi memiliki persamaan utama, yaitu :
 ![Momentum]![image](https://user-images.githubusercontent.com/105913443/169557409-fd3160df-0310-417d-b09b-86f8fc54d27c.png)
 
 
+
 ![Kontinuitas]![image](https://user-images.githubusercontent.com/105913443/169557846-4c4f3fbb-0c72-424c-9a55-7b491b9115ea.png)
+
 
 Hidrodinamika 1 dimensi memiliki persamaan pembangunan, yaitu :
 
@@ -214,12 +216,16 @@ Dengan syarat :
 
 #### 📌Pengaplikasian Hidrodinamika 1 Dimensi dalam Oseanografi📌
 -Analisis pendangkalan jalur pelayaran
+
 -Penentuan tipe pengaman pantai
+
 -Pemodelan transpor sedimen untuk membuktikan adanya sedimentasi dan kekeruhan
 
 #### 📌Kekurangan Hidrodinamika 1 Dimensi📌
 -Datanya terlalu banyak
+
 -Rawan eror ketika terdapat perhitungan aliran kritis
+
 -Simulasi lama
 
 #### 📌Pengerjaan Script📌
@@ -333,5 +339,5 @@ for i in range(1, 16):
 plt.show()
 ```
 #### 📌Hasil Running📌
-![Hasil Running]![image](https://user-images.githubusercontent.com/105913443/169561223-6562a9b8-8d17-4ebb-9d96-ae5a9fb2034f.png)
+![image](https://user-images.githubusercontent.com/105913443/169561223-6562a9b8-8d17-4ebb-9d96-ae5a9fb2034f.png)
 
