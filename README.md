@@ -8,7 +8,7 @@ _Repository_ ini dibuat untuk memenuhi Tugas Akhir Kelompok Praktikum Pemodelan 
 4. Clarisa Wulandari
 5. Ananda Annisa Fitriani
 6. M. Zanugera Alamsyah 26050120120015 A
-7. Olivia Rebeka Vera Wati Sinaga
+7. Olivia Rebeka Vera Wati Sinaga 26050120120028 A
 
 ## 🗒️2. CARA PENGGUNAAN SCRIPT🗒️
 1. Pengguna dapat membuka folder _Kumpulan Script_ pada _repository_ ini. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu.
