@@ -12,9 +12,13 @@ _Repository_ ini dibuat untuk memenuhi Tugas Akhir Kelompok Praktikum Pemodelan 
 
 ## 🗒️2. CARA PENGGUNAAN SCRIPT🗒️
 1. Pengguna dapat membuka folder _Kumpulan Script_ pada _repository_ ini. Di dalamnya terdapat 3 _script_, bisa dibuka salah satu.
-![1](https://user-images.githubusercontent.com/105897134/169439922-6bd9c427-5733-41fc-80cb-f50c3f0425c6.png)
+
+   ![1](https://user-images.githubusercontent.com/105897134/169439922-6bd9c427-5733-41fc-80cb-f50c3f0425c6.png)
+
 2. Tampilan _script_ akan muncul seperti gambar di bawah ini. 
-![2](https://user-images.githubusercontent.com/105897134/169441338-d7256c02-e782-4407-aea9-a395260713d6.png)
+
+   ![2](https://user-images.githubusercontent.com/105897134/169441338-d7256c02-e782-4407-aea9-a395260713d6.png)
+
 3. Script dapat di-_copy_ untuk nantinya dipergunakan dan disesuaikan di _Jupyter Notebook_ maupun _Google Collaboratory._
 
 ## 🧮3. METODE PENGERJAAN📝
@@ -180,4 +184,5 @@ for n in range (0, Nt):
     #print('Nilai CFL:' +str(cfl) + ' dengan arah:' +str(theta))
 ```
 #### 📌Hasil Running📌
-![Hasil Running](https://user-images.githubusercontent.com/105897134/169467814-4a96de24-4c9f-4309-b1ae-5ceef7ffa5d9.png)
+![Hasil Running](https://user-images.githubusercontent.com/105897134/169520897-cfb19073-7f57-4191-bd03-d8373ffd2e26.png)
+
