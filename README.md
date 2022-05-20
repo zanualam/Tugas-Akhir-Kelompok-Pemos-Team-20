@@ -22,3 +22,16 @@ _Repository_ ini dibuat untuk memenuhi Tugas Akhir Kelompok Praktikum Pemodelan 
 2. Modul 3: Model Hidrodinamika 1 Dimensi Sederhana
 3. Modul 4: Model Hidrodinamika 2 Dimensi
 
+## 📒**3.1. Modul 2: Adveksi-Difusi 2 Dimensi**📒
+
+### 📌Definisi dan Persamaan📌
+
+Adveksi 2 dimensi adalah proses pergerakan substansi atau materi oleh fluida akibat dipengaruhi gaya-gaya tertentu dalam arah vertikal dan horizontal.
+
+Difusi 2 dimensi adalah proses penyebaran substansi atau materi oleh fluida akibat dipengaruhi gaya-gaya tertentu dalam arah vertikal dan horizontal.
+
+Persamaan adveksi-difusi merupakan persamaan matematis yang dirancang untuk mempelajari fenomena transpor polutan. Persamaan adveksi-difusi dua dimensi merupakan model matematika yang menggambarkan proses transportasi suatu zat yang dipengaruhi gaya dalam dua dimensi. Persamaannya secara umum sebagai berikut:
+
+### 📌Metode Diskritisasi Beserta Hasilnya📌
+Diskritisasi persamaan adveksi-difusi 2 dimensi menggunakan metode eksplisit upstream dimana persamaan beda hingga dengan metode ini menggunakan pendekatan beda maju untuk turunan waktu, sedangkan untuk turunan ruang dilakukan dengan melihat arah kecepatan u.
+Jika u > 0, turunan ruang menggunakan beda mundur. Jika u < 0, digunakan pendekatan beda maju. Berikut adalah hasil diskritisasi untuk persamaan adveksi 2 dimensi.
