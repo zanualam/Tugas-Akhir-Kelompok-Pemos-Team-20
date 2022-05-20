@@ -25,13 +25,46 @@ _Repository_ ini dibuat untuk memenuhi Tugas Akhir Kelompok Praktikum Pemodelan 
 ## 📒**3.1. Modul 2: Adveksi-Difusi 2 Dimensi**📒
 
 ### 📌Definisi dan Persamaan📌
-
 Adveksi 2 dimensi adalah proses pergerakan substansi atau materi oleh fluida akibat dipengaruhi gaya-gaya tertentu dalam arah vertikal dan horizontal.
+
+![Adveksi 2D](https://user-images.githubusercontent.com/105897134/169457375-a9fa82d8-3b9d-4328-9fe2-c178e3d62e2d.png)
 
 Difusi 2 dimensi adalah proses penyebaran substansi atau materi oleh fluida akibat dipengaruhi gaya-gaya tertentu dalam arah vertikal dan horizontal.
 
+![Difusi 2D](https://user-images.githubusercontent.com/105897134/169457501-c4c608fa-3f05-459d-86ee-3362975ba08c.png)
+
 Persamaan adveksi-difusi merupakan persamaan matematis yang dirancang untuk mempelajari fenomena transpor polutan. Persamaan adveksi-difusi dua dimensi merupakan model matematika yang menggambarkan proses transportasi suatu zat yang dipengaruhi gaya dalam dua dimensi. Persamaannya secara umum sebagai berikut:
+
+![Adveksi-Difusi 2D](https://user-images.githubusercontent.com/105897134/169457432-c04c6964-4144-4fba-8312-d8f416b24cff.png)
 
 ### 📌Metode Diskritisasi Beserta Hasilnya📌
 Diskritisasi persamaan adveksi-difusi 2 dimensi menggunakan metode eksplisit upstream dimana persamaan beda hingga dengan metode ini menggunakan pendekatan beda maju untuk turunan waktu, sedangkan untuk turunan ruang dilakukan dengan melihat arah kecepatan u.
 Jika u > 0, turunan ruang menggunakan beda mundur. Jika u < 0, digunakan pendekatan beda maju. Berikut adalah hasil diskritisasi untuk persamaan adveksi 2 dimensi.
+
+![Diskritisasi Adveksi 2D](https://user-images.githubusercontent.com/105897134/169457504-4f6cd76c-eaed-4a65-8408-53f57042fc0a.png)
+
+Model 2 dimensi untuk mekanisme transpor difusi dapat menggunakan pendekatan beda maju untuk turunan waktu dan beda pusat untuk turunan ruang. Berikut adalah hasil diskritisasi untuk persamaan difusi 2 dimensi.
+
+![Diskritisasi Difusi 2D](https://user-images.githubusercontent.com/105897134/169457506-9fbe396c-701e-44b4-b9c9-5eb6394e468b.png)
+
+Indeks n untuk waktu, indeks i untuk ruang dan koefisien difusi AD dianggap konstan terhadap ruang dan waktu. Berikut ini adalah hasil diskritisasi persamaan adveksi-difusi 2 dimensi.
+
+![Diskritisasi Adveksi-Difusi 2D](https://user-images.githubusercontent.com/105897134/169457505-80ee0398-73f8-4c15-9d86-0d7bbfce05ad.png)
+
+### 📌Penentuan Nilai Batas dan Syarat Batas📌
+Syarat batas merupakan suatu kondisi yang menggambarkan kondisi di batas (ruang maupun waktu) dari model yang dibangun. Syarat batas dari metode eksplisit upstream diberikan pada nilai awal (hulu) dan nilai akhir (hilir).
+
+![Syarat Batas](https://user-images.githubusercontent.com/105897134/169457513-581f12b3-d391-4310-b1a1-71a25c1ec425.png)
+
+### 📌Saat Iterasi Dihentikan📌
+Syarat awal yang digunakan dalam skenario model 2D adveksi-difusi ini adalah dengan memberikan harga 0 di semua titik konsentrasi polutan kecuali di titik-titik sumber yang tersebar dan sumber bersifat tidak kontinu.
+
+![Iterasi](https://user-images.githubusercontent.com/105897134/169457510-64116b16-bf28-4cf3-99eb-7804c56fba14.png)
+
+### 📌Kriteria Kestabilan📌
+Suatu metode untuk menentukan seberapa besar nilai stabilitas dari model yang digunakan.
+
+![Kriteria Kestabilan](https://user-images.githubusercontent.com/105897134/169457512-b6746147-ed68-48e3-bd10-2db4965b62ab.png)
+
+### 📌Pengerjaan Script📌
+1. Memasukkan mandatory library python matploblib untuk memberikan efek visual pada grafik, numpy untuk perhitungan numerik dan sys untuk mengakses konfigurasi interpreter pada saat runtime dan berinteraksi dengan environment sistem operasi. Memasukkan juga pendefinisian.
