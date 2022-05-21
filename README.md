@@ -344,7 +344,12 @@ plt.show()
 ### 📒**3.3. Modul 4: Model Hidrodinamika 2 Dimensi**📒
 
 #### 📌Definisi dan Persamaan📌
-Hidrodinamika 
+
+Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda dengan pemodelan Hidrodinamika 1D, yaitu:
+- Kecepatan arus dan gelombang yang dihasilkan tidak seragam, pasti berbeda-beda di setiap daerah penelitian.
+- Daerah atau medan direpresentasikan sebagai permukaan kontinu, tidak hanya ada medan X, tetapi ada medan (X, Y) atau medan (X, Z).
+- Model 2D lebih cocok diterapkan pada kemiringan yang curam atau tinggi.
+- Kedalaman air tidak dianggap seragam.
 
 #### 📌Pengaplikasian Hidrodinamika 2 Dimensi dalam Oseanografi📌
 - Pemodelan Gelombang karena Angin
