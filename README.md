@@ -222,18 +222,18 @@ Dengan syarat :
 ![image](https://user-images.githubusercontent.com/105913443/169558609-e3b0b0c0-db4a-4934-a8ec-e3607acc7cf9.png)
 
 #### 📌Pengaplikasian Hidrodinamika 1 Dimensi dalam Oseanografi📌
--Analisis pendangkalan jalur pelayaran
+- Analisis pendangkalan jalur pelayaran
 
--Penentuan tipe pengaman pantai
+- Penentuan tipe pengaman pantai
 
--Pemodelan transpor sedimen untuk membuktikan adanya sedimentasi dan kekeruhan
+- Pemodelan transpor sedimen untuk membuktikan adanya sedimentasi dan kekeruhan
 
 #### 📌Kekurangan Hidrodinamika 1 Dimensi📌
--Datanya terlalu banyak
+- Datanya terlalu banyak
 
--Rawan eror ketika terdapat perhitungan aliran kritis
+- Rawan eror ketika terdapat perhitungan aliran kritis
 
--Simulasi lama
+- Simulasi lama
 
 #### 📌Pengerjaan Script📌
 1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, _numpy_ untuk perhitungan numerik dan _sys_ untuk mengakses konfigurasi interpreter pada saat _runtime_. 
@@ -351,7 +351,7 @@ plt.show()
 ### 📒**3.3. Modul 4: Model Hidrodinamika 2 Dimensi**📒
 
 #### 📌Definisi📌
-Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair incompressible yang dipengaruhi oleh gaya internal dan eksternal. Dalam hidrodinamika laut, gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dan gaya coriolis. Model Hidrodinamika dalam air laut dapat digunakan untuk mengkaji pergerakan polutan, disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut serta untuk pengkajian klimatologi laut.
+Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair incompressible yang dipengaruhi oleh gaya internal dan eksternal. Dalam hidrodinamika laut, gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dan gaya coriolis. Model Hidrodinamika dalam air laut dapat digunakan untuk mengkaji pergerakan polutan, disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut serta untuk pengkajian klimatologi laut. Fenomena arus, gelombang, dan pasang surut adalah bagian dari hidrodinamika laut. Parameter hidrodinamika laut tersebut merupakan bagian dari keseluruhan komponen oseangrafi yang saling mengadakan interaksi atau saling mempengaruhi satu sama lain yang cukup kompleks. 
 
 Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda dengan pemodelan Hidrodinamika 1D, yaitu:
 - Kecepatan arus dan gelombang yang dihasilkan tidak seragam, pasti berbeda-beda di setiap daerah penelitian.
