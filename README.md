@@ -191,6 +191,10 @@ for n in range (0, Nt):
 #### 📌Definisi dan Persamaan📌
 Hidrodinamika 1 dimensi sangat penting untuk mensimulasikan pola gerak air laut secara global. Model Hidrodinamika dalam air laut dapat digunakan untuk mengkaji pergerakan polutan, disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut serta untuk pengkajian klimatologi laut.
 
+Pemodelan Hidrodinamika 1D:
+- Model yang dibangun dari adanya proses yang mempengaruhi massa air
+- Penampang melintang diambil tegak lurus terhadap aliran sungai (x)
+
 Hidrodinamika 1 dimensi memiliki persamaan utama, yaitu :
 
 ![Momentum]![image](https://user-images.githubusercontent.com/105913443/169557409-fd3160df-0310-417d-b09b-86f8fc54d27c.png)
