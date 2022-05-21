@@ -352,7 +352,7 @@ plt.show()
 - Pemodelan Coastal Dynamics dan Sedimentasi Pantai
 
 #### 📌Pengerjaan Script📌
-1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, import NDBC dari siphon.simplewebservice.ndbc. yang mana NDBC menyimpan file bergulir terbaru selama 45 hari untuk setiap buoy. 
+1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, import _NDBC_ dari _siphon.simplewebservice.ndbc._ yang mana NDBC menyimpan file bergulir terbaru selama 45 hari untuk setiap buoy. 
 ```
 import matplotlib.pyplot as plt
 from siphon.simplewebservice.ndbc import NDBC
@@ -386,7 +386,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 plt.show()
 ```
 #### 📌Hasil Running📌
-![image]![modul 4](https://user-images.githubusercontent.com/90039747/169631215-dec32e37-ea73-46ba-8b54-186da2acc6c1.png)
+![modul 4](https://user-images.githubusercontent.com/90039747/169631215-dec32e37-ea73-46ba-8b54-186da2acc6c1.png)
 
 4. Selanjutnya, masuk ke website NDBC-NOAA (https://www.ndbc.noaa.gov/obs.shtml), pada bagian search Station ID, cari Station ID pada kolom pencarian
 ![fghm](https://user-images.githubusercontent.com/90039747/169631375-60590fb0-0e03-4150-a525-2056f53854cf.png)
