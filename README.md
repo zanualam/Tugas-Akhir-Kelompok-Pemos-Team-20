@@ -350,3 +350,48 @@ plt.show()
 - Pemodelan Gelombang karena Angin
 - Pemodelan Sampah Plastik di Laut
 - Pemodelan Coastal Dynamics dan Sedimentasi Pantai
+
+#### 📌Pengerjaan Script📌
+1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, import NDBC dari siphon.simplewebservice.ndbc. yang mana NDBC menyimpan file bergulir terbaru selama 45 hari untuk setiap buoy. 
+```
+import matplotlib.pyplot as plt
+from siphon.simplewebservice.ndbc import NDBC
+```
+2. Selanjutnya, Stasiun ID yang ingin diamati dimasukkan
+```
+df = NDBC.realtime_observations('STATION ID')
+df.head()
+```
+3. Setelah itu, _script_ grafik time series sederhana Pressure, Wind speed, gust, direction, Water temperature dibuat 
+```
+fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
+ax2b = ax2.twinx()
+
+# Pressure
+ax1.plot(df['time'], df['pressure'], color='black')
+ax1.set_ylabel('Pressure [hPa]')
+fig.subtitle('Nama_NIM_Kelas', fontsize=18)
+
+# Wind speed, gust, direction
+ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
+ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
+ax2.set_ylabel('Wind Speed [m/s]')
+ax2b.set_ylabel('Wind Direction')
+
+# Water temperature
+ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
+ax3.set_ylabel('Water Temperature [degC]')
+
+plt.show()
+```
+#### 📌Hasil Running📌
+![image]![modul 4](https://user-images.githubusercontent.com/90039747/169631215-dec32e37-ea73-46ba-8b54-186da2acc6c1.png)
+
+4. Selanjutnya, masuk ke website NDBC-NOAA (https://www.ndbc.noaa.gov/obs.shtml), pada bagian search Station ID, cari Station ID pada kolom pencarian
+![fghm](https://user-images.githubusercontent.com/90039747/169631375-60590fb0-0e03-4150-a525-2056f53854cf.png)
+
+5. Kemudian Lokasi buoy diidentifikasi
+![image](https://user-images.githubusercontent.com/90039747/169631429-fd64c9f6-37d1-48c4-b9e6-45b50443d6b1.png)
+
+
