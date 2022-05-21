@@ -364,6 +364,7 @@ df.head()
 ```
 3. Setelah itu, _script_ grafik time series sederhana Pressure, Wind speed, gust, direction, Water temperature dibuat 
 ```
+# Let's make a simple time series plot to checkout what the data look like
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
 ax2b = ax2.twinx()
 
