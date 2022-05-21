@@ -343,7 +343,8 @@ plt.show()
 
 ### 📒**3.3. Modul 4: Model Hidrodinamika 2 Dimensi**📒
 
-#### 📌Definisi dan Persamaan📌
+#### 📌Definisi📌
+Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair incompressible yang dipengaruhi oleh gaya internal dan eksternal. Dalam hidrodinamika laut, gaya-gaya yang terpenting adalah gaya gravitasi, gaya gesekan, dan gaya coriolis. Model Hidrodinamika dalam air laut dapat digunakan untuk mengkaji pergerakan polutan, disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut serta untuk pengkajian klimatologi laut.
 
 Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda dengan pemodelan Hidrodinamika 1D, yaitu:
 - Kecepatan arus dan gelombang yang dihasilkan tidak seragam, pasti berbeda-beda di setiap daerah penelitian.
