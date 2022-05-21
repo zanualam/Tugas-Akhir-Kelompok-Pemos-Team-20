@@ -2,11 +2,11 @@
 _Repository_ ini dibuat untuk memenuhi Tugas Akhir Kelompok Praktikum Pemodelan Oseanografi 2022. _Repository_ ini memuat file berupa _script python_ (py) yang digunakan untuk memproses beberapa pemodelan oseanografi seperti Adveksi-Difusi dan Hidrodinamika. Pengerjaan _repository_ ini menggunakan bahasa pemrograman _python_ yang dapat dilakukan pada beberapa _platform_ seperti _Google Collaboratory_ atau _Jupyter Notebook_. _Mandatory library_ yang digunakan kali ini adalah _Numpy, Matplotlib, Python, Sys, Siphon_ dan _Pprint_. Seluruh _script_ yang dibuat adalah hasil Team 20 Oseanografi 2020. Semoga dapat bermanfaat!
 
 ## 🙋🏼‍♀️1. AUTHORS (TEAM 20)🙋🏼‍♂️
-1. Doding Akka Damanik
-2. Azalya Besari Noerazzahra Tilaar
-3. Umar Abdul Aziz
-4. Clarisa Wulandari
-5. Ananda Annisa Fitriani
+1. Doding Akka Damanik 26050120120027 A
+2. Azalya Besari Noerazzahra Tilaar 26050120130098 A
+3. Umar Abdul Aziz 26050120140163 B
+4. Clarisa Wulandari 26050120120030 A
+5. Ananda Annisa Fitriani 26050120140063 B
 6. M. Zanugera Alamsyah 26050120120015 A
 7. Olivia Rebeka Vera Wati Sinaga 26050120120028 A
 
@@ -341,3 +341,12 @@ plt.show()
 #### 📌Hasil Running📌
 ![image](https://user-images.githubusercontent.com/105913443/169561223-6562a9b8-8d17-4ebb-9d96-ae5a9fb2034f.png)
 
+### 📒**3.3. Modul 4: Model Hidrodinamika 2 Dimensi**📒
+
+#### 📌Definisi dan Persamaan📌
+
+
+#### 📌Pengaplikasian Hidrodinamika 2 Dimensi dalam Oseanografi📌
+- Pemodelan Gelombang karena Angin
+- Pemodelan Sampah Plastik di Laut
+- Pemodelan Coastal Dynamics dan Sedimentasi Pantai
