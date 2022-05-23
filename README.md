@@ -367,6 +367,7 @@ Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda
 - Pemodelan untuk Mengestimasi Potensi Energi Arus Laut
    Arus laut adalah gerakan massa air laut yang memiliki energi kinetik untuk digunakan sebagai penggerak rotor atau turbin pembangkit tenaga listrik. Salah satu teknologi yang dapat digunakan untuk mengkonversi gerakan turbin menjadi energi listrik adalah _Marine Current Turbin_ yang bekerja menyerupai pembangkit listrik tenaga angin, namun ditempatkan di dalam air.
    Kecepatan arus maksimum terjadi saat pasang purnama pada kondisi peralihan pasang menuju surut atau surut menuju pasang. Kecepatan arus mencapai minimum pada saat elevasi muka air pasang maksimum atau surut minimum.
+   Pemodelan yang dilakukan biasanya hanya mengkaji potensi energi arus untuk satu nilai arus yang besarnya merupakan hasil perata-rataan terhadap kedalaman (2 dimensi horizontal). 
 
 #### 📌Pengerjaan Script📌
 1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, import _NDBC_ dari _siphon.simplewebservice.ndbc._ yang mana NDBC menyimpan file bergulir terbaru selama 45 hari untuk setiap buoy. 
