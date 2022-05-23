@@ -408,6 +408,11 @@ plt.show()
 5. Kemudian Lokasi buoy diidentifikasi
 ![image](https://user-images.githubusercontent.com/90039747/169631429-fd64c9f6-37d1-48c4-b9e6-45b50443d6b1.png)
 
+## 4. SARAN DAN PENGEMBANGAN
+1. Tipe pembuatan grafik dapat dikreasikan dengan mengacu pada Style sheets reference https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html
+2. Tipe garis dan warna pada grafik dapat dikreasikan dengan mengacu pada Line and Color style https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+3. Persamaan untuk setiap metode dapat customizable.
+
 ## 🙏5. UCAPAN TERIMA KASIH🙏
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Authors memohon maaf apabila terdapat kesalahan dalam tugas akhir kelompok ini. Team 20 selaku author dari repository kali ini juga mengucapkan terima kasih kepada:
 1. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
