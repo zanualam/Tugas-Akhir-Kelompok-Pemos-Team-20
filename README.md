@@ -21,7 +21,7 @@ _Repository_ ini dibuat untuk memenuhi Tugas Akhir Kelompok Praktikum Pemodelan 
 
 3. Script dapat di-_copy_ untuk nantinya dipergunakan dan disesuaikan di _Jupyter Notebook_ maupun _Google Collaboratory._
 
-## 🧮3. METODE PENGERJAAN📝
+## 📝3. METODE PENGERJAAN📝
 1. Modul 2: Adveksi-Difusi 2 Dimensi
 2. Modul 3: Model Hidrodinamika 1 Dimensi Sederhana
 3. Modul 4: Model Hidrodinamika 2 Dimensi
@@ -369,6 +369,7 @@ Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda
    Arus laut adalah gerakan massa air laut yang memiliki energi kinetik untuk digunakan sebagai penggerak rotor atau turbin pembangkit tenaga listrik. Salah satu teknologi yang dapat digunakan untuk mengkonversi gerakan turbin menjadi energi listrik adalah _Marine Current Turbin_ yang bekerja menyerupai pembangkit listrik tenaga angin, namun ditempatkan di dalam air.
 
    Salah satu asumsi dasar yaitu dengan menggunakan rumus Frankel, maka arus dengan kecepatan 1 m/s yang melewati penampang vertikal sebesar 1 m^2, dapat menghasilka rapat daya maksimum sekitar:
+   
    ![image](https://user-images.githubusercontent.com/105908002/169751354-f4e2b7aa-903e-48a6-8e1a-7348c7a538a1.png)
 
    Kecepatan arus maksimum terjadi saat pasang purnama pada kondisi peralihan pasang menuju surut atau surut menuju pasang. Kecepatan arus mencapai minimum pada saat elevasi muka air pasang maksimum atau surut minimum.
@@ -376,17 +377,17 @@ Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda
    Pemodelan yang dilakukan biasanya hanya mengkaji potensi energi arus untuk satu nilai arus yang besarnya merupakan hasil perata-rataan terhadap kedalaman (2 dimensi horizontal). Untuk pengkajian lebih lanjut potensi energi arus yang terdapat pada selat-selat di Indonesia, perlu dilakukan pemodelan secara 3 dimensi, sehingga dapat diketahui potensi yang tersimpan pada setiap kedalaman.
 
 #### 📌Pengerjaan Script📌
-1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, import _NDBC_ dari _siphon.simplewebservice.ndbc._ yang mana NDBC menyimpan file bergulir terbaru selama 45 hari untuk setiap buoy. 
+1. Memasukkan _mandatory library python matploblib_ untuk memberikan efek visual pada grafik, import _NDBC_ dari _siphon.simplewebservice.ndbc._ yang mana NDBC menyimpan file bergulir terbaru selama 45 hari untuk setiap _buoy_. 
 ```
 import matplotlib.pyplot as plt
 from siphon.simplewebservice.ndbc import NDBC
 ```
-2. Selanjutnya, Stasiun ID yang ingin diamati dimasukkan
+2. Selanjutnya, _Station ID_ yang ingin diamati dimasukkan
 ```
 df = NDBC.realtime_observations('STATION ID')
 df.head()
 ```
-3. Setelah itu, _script_ grafik time series sederhana Pressure, Wind speed, gust, direction, Water temperature dibuat 
+3. Setelah itu, _script_ grafik _time series_ sederhana _Pressure, Wind speed, gust, direction, Water temperature_ dibuat 
 ```
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
 ax2b = ax2.twinx()
@@ -412,11 +413,16 @@ plt.show()
 #### 📌Hasil Running📌
 ![modul 4](https://user-images.githubusercontent.com/90039747/169631215-dec32e37-ea73-46ba-8b54-186da2acc6c1.png)
 
-4. Selanjutnya, masuk ke website NDBC-NOAA (https://www.ndbc.noaa.gov/obs.shtml), pada bagian search Station ID, cari Station ID pada kolom pencarian
+4. Selanjutnya, masuk ke website NDBC-NOAA (https://www.ndbc.noaa.gov/obs.shtml), pada bagian _search Station ID_, cari _Station ID_ pada kolom pencarian
 ![fghm](https://user-images.githubusercontent.com/90039747/169631375-60590fb0-0e03-4150-a525-2056f53854cf.png)
 
-5. Kemudian Lokasi buoy diidentifikasi
+5. Kemudian Lokasi _buoy_ diidentifikasi
 ![image](https://user-images.githubusercontent.com/90039747/169631429-fd64c9f6-37d1-48c4-b9e6-45b50443d6b1.png)
+
+## 🗒️4. SARAN PENGEMBANGAN🗒️
+
+
+
 
 ## 🙏5. UCAPAN TERIMA KASIH🙏
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Authors memohon maaf apabila terdapat kesalahan dalam tugas akhir kelompok ini. Team 20 selaku author dari repository kali ini juga mengucapkan terima kasih kepada:
