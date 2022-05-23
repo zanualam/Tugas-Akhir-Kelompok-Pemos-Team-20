@@ -408,5 +408,12 @@ plt.show()
 5. Kemudian Lokasi buoy diidentifikasi
 ![image](https://user-images.githubusercontent.com/90039747/169631429-fd64c9f6-37d1-48c4-b9e6-45b50443d6b1.png)
 
-
+## 🗒️5. UCAPAN TERIMA KASIH🗒️
+Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Authors memohon maaf apabila terdapat kesalahan dalam tugas akhir kelompok ini. Team 20 selaku author dari repository kali ini juga mengucapkan terima kasih kepada:
+1. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+4. Rikha Widiaratih, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+5. Tim asisten Praktikum Pemodelan Oseanografi tahun 2022 yang selalu mendampingi dalam pengerjaan tugas akhir kelompok ini.
+6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini.
 
