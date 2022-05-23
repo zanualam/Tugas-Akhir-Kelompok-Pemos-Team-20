@@ -366,6 +366,7 @@ Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda
 - Pemodelan Coastal Dynamics dan Sedimentasi Pantai
 - Pemodelan untuk Mengestimasi Potensi Energi Arus Laut
    Arus laut adalah gerakan massa air laut yang memiliki energi kinetik untuk digunakan sebagai penggerak rotor atau turbin pembangkit tenaga listrik. Salah satu teknologi yang dapat digunakan untuk mengkonversi gerakan turbin menjadi energi listrik adalah _Marine Current Turbin_ yang bekerja menyerupai pembangkit listrik tenaga angin, namun ditempatkan di dalam air.
+   Salah satu asumsi dasar yaitu dengan menggunakan rumus Frankel, maka arus dengan kecepatan 1 m/s yang melewati penampang vertikal sebesar 1 m^2 
    Kecepatan arus maksimum terjadi saat pasang purnama pada kondisi peralihan pasang menuju surut atau surut menuju pasang. Kecepatan arus mencapai minimum pada saat elevasi muka air pasang maksimum atau surut minimum.
    Pemodelan yang dilakukan biasanya hanya mengkaji potensi energi arus untuk satu nilai arus yang besarnya merupakan hasil perata-rataan terhadap kedalaman (2 dimensi horizontal). Untuk pengkajian lebih lanjut potensi energi arus yang terdapat pada selat-selat di Indonesia, perlu dilakukan pemodelan secara 3 dimensi, sehingga dapat diketahui potensi yang tersimpan pada setiap kedalaman.
 
