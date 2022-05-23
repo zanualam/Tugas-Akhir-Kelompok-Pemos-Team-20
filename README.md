@@ -363,7 +363,9 @@ Dalam pemodelan Hidrodinamika 2D, terdapat beberapa hasil pemodelan yang berbeda
 - Pemodelan Gelombang karena Angin
 - Pemodelan Gaya Pembangkit Arus karena Angin
 - Pemodelan Sampah Plastik di Laut
-- Pemodelan Coastal Dynamics dan Sedimentasi Pantai
+- Pemodelan _Coastal Dynamics_ dan Sedimentasi Pantai
+- Pemodelan Tumpahan Minyak di Laut
+- Pemodelan _Longshore Current_ Beserta Proses Sedimentasinya
 - Pemodelan untuk Mengestimasi Potensi Energi Arus Laut
 
    Arus laut adalah gerakan massa air laut yang memiliki energi kinetik untuk digunakan sebagai penggerak rotor atau turbin pembangkit tenaga listrik. Salah satu teknologi yang dapat digunakan untuk mengkonversi gerakan turbin menjadi energi listrik adalah _Marine Current Turbin_ yang bekerja menyerupai pembangkit listrik tenaga angin, namun ditempatkan di dalam air.
