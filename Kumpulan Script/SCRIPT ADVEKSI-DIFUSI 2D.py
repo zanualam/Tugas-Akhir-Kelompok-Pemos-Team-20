@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
@@ -66,7 +60,13 @@ F[0,py1,px1] = Ic
 for n in range (0, Nt):
     for i in range (1,Ny+1):
         for j in range(1,Nx+1):
-            F[n+1,i,j]=((F[n,i,j]*(1-abs(lx)-abs(ly)))  +                         (0.5*(F[n,i-1,j]*(ly+abs(ly)))) +                         (0.5*(F[n,i+1,j]*(abs(ly)-ly))) +                         (0.5*(F[n,i,j-1]*(lx+abs(lx)))) +                         (0.5*(F[n,i,j+1]*(abs(lx)-lx))) +                         (ay*(F[n,i+1,j]-2*(F[n,i,j])+F[n,i-1,j])) +                         (ax*(F[n,i,j+1]-2*(F[n,i,j])+F[n,i,j-1]))) #Diskritisasi
+            F[n+1,i,j]=((F[n,i,j]*(1-abs(lx)-abs(ly)))  + \
+                        (0.5*(F[n,i-1,j]*(ly+abs(ly)))) + \
+                        (0.5*(F[n,i+1,j]*(abs(ly)-ly))) + \
+                        (0.5*(F[n,i,j-1]*(lx+abs(lx)))) + \
+                        (0.5*(F[n,i,j+1]*(abs(lx)-lx))) + \
+                        (ay*(F[n,i+1,j]-2*(F[n,i,j])+F[n,i-1,j])) + \
+                        (ax*(F[n,i,j+1]-2*(F[n,i,j])+F[n,i,j-1]))) #Diskritisasi
     #Syarat Batas (Dirichlet Boundary Condition)
     F[n+1,0,:] = 0 #BC Bawah
     F[n+1,:,0] = 0 #BC Kiri
@@ -89,10 +89,3 @@ for n in range (0, Nt):
     plt.close()
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     #print('Nilai CFL:' +str(cfl) + ' dengan arah:' +str(theta))
-
-
-# In[ ]:
-
-
-
-
