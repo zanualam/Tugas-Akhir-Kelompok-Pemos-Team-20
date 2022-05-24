@@ -415,24 +415,26 @@ plt.show()
 #### 📌Hasil Running📌
 ![modul 4](https://user-images.githubusercontent.com/90039747/169631215-dec32e37-ea73-46ba-8b54-186da2acc6c1.png)
 
-4. Selanjutnya, masuk ke website NDBC-NOAA (https://www.ndbc.noaa.gov/obs.shtml), pada bagian _search Station ID_, cari _Station ID_ pada kolom pencarian
+4. Selanjutnya, masuk ke website [NDBC-NOAA](https://www.ndbc.noaa.gov/obs.shtml), pada bagian _search Station ID_, cari _Station ID_ pada kolom pencarian
 ![fghm](https://user-images.githubusercontent.com/90039747/169631375-60590fb0-0e03-4150-a525-2056f53854cf.png)
 
 5. Kemudian Lokasi _buoy_ diidentifikasi
 ![image](https://user-images.githubusercontent.com/90039747/169631429-fd64c9f6-37d1-48c4-b9e6-45b50443d6b1.png)
 
 ## 🗒️4. SARAN PENGEMBANGAN🗒️
-1. Tipe pembuatan grafik dapat dikreasikan dengan mengacu pada _Style sheets reference_.(https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html)
-2. Tipe garis dan warna pada grafik dapat dikreasikan dengan mengacu pada _Line and Color style_. (https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html)
-3. Persamaan untuk setiap metode dapat _customizable_
+1. Tipe pembuatan grafik dapat dikreasikan dengan mengacu pada 
+[_Style sheets reference_](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html).
+3. Tipe garis dan warna pada grafik dapat dikreasikan dengan mengacu pada 
+[_Line and Color style_](https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html).
+5. Persamaan untuk setiap metode dapat _customizable_.
 
 
 ## 🙏5. UCAPAN TERIMA KASIH🙏
-Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Authors memohon maaf apabila terdapat kesalahan dalam tugas akhir kelompok ini. Team 20 selaku author dari repository kali ini juga mengucapkan terima kasih kepada:
+Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. _Authors_ memohon maaf apabila terdapat kesalahan dalam tugas akhir kelompok ini. Team 20 selaku author dari _repository_ kali ini juga mengucapkan terima kasih kepada:
 1. Dr. Aris Ismanto, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
 2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
 3. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
 4. Rikha Widiaratih, S.Si, M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
 5. Tim asisten Praktikum Pemodelan Oseanografi tahun 2022 yang selalu mendampingi dalam pengerjaan tugas akhir kelompok ini.
-6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini.
+6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya _repository_ ini.
 
